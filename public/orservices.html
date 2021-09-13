@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expresss Checkpoint </title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body > 
+<div id="orservice">
+  <h2>Dear visitor, sorry.</h2> <br/>
+  <img src="hors-service.jpg" alt="hors service" width="70%">
+  <p>The time is <time id="time" ></time></p> 
+  
+  <script>
+     var display=setInterval(function(){Time()},0);
+     
+     function Time()
+     {
+     var date=new Date();
+     var time=date.toLocaleTimeString();
+     document.getElementById("time").innerHTML=time;
+     }
+     </script>
+  <h3> Not available now, please try to connect in working time: </h3> 
+  <h4>(Monday-Friday 9:00 to 17:00)</h4>
+</div>
+ 
+ <footer>Website Designed : Riadh BEN OTHMANE</footer>
+  </body>

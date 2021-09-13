@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+			<div class="header">
+				<a href="#default" class="logo">CV Riadh BEN OTHMANE</a>
+				<nav class="header-right">
+          <a class="active" href="home.html">Home</a>
+          <a href="contact.html">Contact</a>
+          <a href="services.html">Services</a>
+				</nav>
+			</div>
+
+		</header>
+    <section id="Contact">
+     <br>
+      <form>
+        <div class="input-field">
+          <label>Nom et prénom </label>
+          <input class="contact-name" type="text" name="name" placeholder="Entrer votre nom">
+          <span class="line"></span>
+        </div>
+        <div class="input-field">
+          <label>Numero de téléphone</label>
+          <input type="number" name="number" value="23123456" />
+          <span class="line"></span>
+          
+        </div>
+        <div class="input-field">
+          <label>Date de naissance</label>
+          <input type="date" name="birthday" />
+          <span class="line"></span>
+          
+        </div>
+        <div class="input-field">
+          <label>Sexe</label>					
+          <select>
+            <option value="Homme">Homme</option>
+            <option value="Femme">Femme</option>
+          </select>
+          <span class="line"></span>
+          
+        </div>
+
+        <div class="input-field">
+          <label>Email</label>
+          <input class="contact-email" type="email" name="email" placeholder="exemple@gmail.com" required/>
+          <span class="line"></span>
+          
+        </div>
+        <div class="input-field">	
+          <label>M'envoyer un document </label>
+          <span class="line"></span>
+          <input type="file" accept="image/png, image/jpeg, file/pdf, file/doc"/>
+          
+        </div>
+        
+        
+        <div class="input-field">
+          <label>Sujet</label>
+          <input class="contact-subject" type="text" name="subject">
+          <span class="line"></span>
+          
+        </div>
+        <div class="input-field">
+          <label>Message</label>
+          <textarea class="contact-message" rows="4" name="message"></textarea>
+          <span class="line"></span>
+          
+        </div>
+        <span id="bouton"><input type="submit" value="Emvoyer" id="INPUT_bouton" /></span>
+        <div class="contact-response"></div>
+      </form>
+      
+          </section>
+
+    <footer>Website Designed : Riadh BEN OTHMANE</footer>
+  </body>
+</html>
